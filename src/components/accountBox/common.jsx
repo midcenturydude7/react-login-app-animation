@@ -16,9 +16,10 @@ export const FormContainer = styled.form`
 `;
 
 export const MutedLink = styled.a`
+  // padding-top: 15px;
   font-size: 12px;
   color: rgba(37, 137, 160, 1);
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
 `;
 
@@ -45,9 +46,13 @@ export const Input = styled.input`
   &:not(:last-of-type) {
     border-bottom: 1.5px solid rgba(37, 137, 160, 0.4);
   }
+  &:hover {
+    outline: none;
+    border-bottom: 2px solid rgb(37, 137, 160, 0.7);
+  }
   &:focus {
     outline: none;
-    border-bottom: 2px solid rgb(37, 137, 160, 1);
+    border-bottom: 2px solid rgb(37, 137, 160, 1.5);
   }
 `;
 

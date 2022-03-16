@@ -63,7 +63,7 @@ export const SubmitButton = styled.button`
   transition: all, 240ms ease-in-out;
   background: #2589a0;
   background: linear-gradient(
-    50deg,
+    deg,
     rgba(37, 137, 160, 1) 20%,
     rgba(131, 180, 191, 0.8) 100%
   );

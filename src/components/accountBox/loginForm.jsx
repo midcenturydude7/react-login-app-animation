@@ -12,7 +12,7 @@ export function LoginForm() {
                 <Input type="email" placeholder="Email" />
                 <Input type="password" placeholder="Password" />
             </FormContainer>
-            <Marginer direction="vertical" margin={10} />
+            <Marginer direction="vertical" margin={12} />
             <MutedLink href="#">Forget your password?</MutedLink>
             <Marginer direction="vertical" margin="1.6em" />
             <SubmitButton type="submit">Sign-in</SubmitButton>

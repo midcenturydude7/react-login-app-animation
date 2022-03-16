@@ -12,7 +12,7 @@ const BoxContainer = styled.div`
   flex-direction: column;
   border-radius: 19px;
   background-color: #fff;
-  box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
+  box-shadow: 0 0 2px rgba(37, 137, 160, 1);
   position: relative;
   overflow: hidden;
 `;
@@ -37,11 +37,11 @@ const BackDrop = styled(motion.div)`
   transform: rotate(60deg);
   top: -290px;
   left: -70px;
-  background: rgb(241, 196, 15);
+  background: #2589a0;
   background: linear-gradient(
-    58deg,
-    rgba(241, 196, 15, 1) 20%,
-    rgba(243, 172, 18, 1) 100%
+    50deg,
+    rgba(37, 137, 160, 1) 20%,
+    rgba(131, 180, 191, 0.8) 100%
   );
 `;
 

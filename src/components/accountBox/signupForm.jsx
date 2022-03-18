@@ -14,7 +14,7 @@ export function SignupForm() {
                 <Input type="password" placeholder="Password" />
                 <Input type="password" placeholder="Confirm Password" />
             </FormContainer>
-            <Marginer direction="vertical" margin={18} />
+            <Marginer direction="vertical" margin={20} />
             <SubmitButton type="submit">Sign-up</SubmitButton>
             <Marginer direction="vertical" margin="1em" />
             <MutedLink href="#">
